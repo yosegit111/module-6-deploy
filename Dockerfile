@@ -25,3 +25,5 @@ ENV NAME World
 # Run the application
 CMD ["python", "app.py"]
 
+# Copy .env into the working directory
+COPY .env .env
